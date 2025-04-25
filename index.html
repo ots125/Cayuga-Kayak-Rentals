@@ -1,57 +1,62 @@
-export default function LandingPage() {
-  return (
-    <main className="min-h-screen bg-blue-100 text-gray-800 font-sans">
-      {/* Header */}
-      <header className="bg-white shadow p-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-blue-700">Cayuga Kayak Rentals</h1>
-      </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cayuga Kayak Rentals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #f7f5f2;
+      color: #333;
+    }
+    header {
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .section {
+      margin-top: 2rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #3a7d44;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .cta:hover {
+      background: #2f6538;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cayuga Kayak Rentals</h1>
+    <p>Affordable kayak rentals for your summer adventure</p>
+  </header>
 
-      {/* Hero Section */}
-      <section className="text-center py-20 px-4 bg-blue-200">
-        <h2 className="text-4xl font-bold mb-4">Explore the Beauty of Cayuga Lake</h2>
-        <p className="text-lg mb-6">Kayak rentals made easy and affordable. Just $60/day + $15 for drop-off at your location.</p>
-        <a 
-          href="sms:+13152377479"
-          className="bg-blue-700 text-white px-6 py-3 rounded-xl text-lg hover:bg-blue-800 transition"
-        >
-          Text to Reserve
-        </a>
-      </section>
+  <div class="section">
+    <h2>Pricing</h2>
+    <p>$60 per day</p>
+    <p>Pickup is free, or choose a drop-off location for an additional $15</p>
+    <p>*Life jackets not included*</p>
+  </div>
 
-      {/* About Section */}
-      <section className="py-16 px-6 bg-white">
-        <h3 className="text-2xl font-semibold mb-4">About Us</h3>
-        <p className="text-lg max-w-3xl mx-auto">
-          At <strong>Cayuga Kayak Rentals</strong>, we make it easy to enjoy the water. Whether you're a local or a visitor,
-          our no-hassle rentals and flexible drop-off make your lake day smooth and stress-free.
-        </p>
-      </section>
-
-      {/* How It Works */}
-      <section className="py-16 px-6 bg-gray-100">
-        <h3 className="text-2xl font-semibold mb-4 text-center">How It Works</h3>
-        <ul className="max-w-xl mx-auto space-y-4 text-lg">
-          <li>1. Choose your rental day</li>
-          <li>2. Pick up or pick a drop-off location for an additional $15 charge</li>
-          <li>3. Paddle and relax</li>
-        </ul>
-      </section>
-
-      {/* Safety Info */}
-      <section className="py-16 px-6 bg-white">
-        <h3 className="text-2xl font-semibold mb-4">Safety Info</h3>
-        <ul className="list-disc list-inside text-lg max-w-2xl mx-auto">
-          <li>Must be 18+ or with guardian</li>
-          <li>Safety sheet available on-site and online</li>
-        </ul>
-      </section>
-
-      {/* Contact Info */}
-      <section className="py-16 px-6 bg-gray-100 text-center">
-        <h3 className="text-2xl font-semibold mb-4">Contact</h3>
-        <p className="text-lg">Call or text us at <strong>(315) 237-7479</strong></p>
-        <p className="text-lg">Email: <a href="mailto:owensaville1@gmail.com" className="text-blue-700 hover:underline">owensaville1@gmail.com</a></p>
-      </section>
-    </main>
-  );
-}
+  <div class="section">
+    <h2>Book Now</h2>
+    <p>Ready to rent? Text us to reserve your kayak!</p>
+    <a class="cta" href="sms:+13152377479">Text (315) 237-7479</a>
+  </div>
+</body>
+</html>
