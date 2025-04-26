@@ -2,36 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cayuga Kayak Rentals</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      padding: 2rem;
+      margin: 0;
+      padding: 0;
       background: #f7f5f2;
       color: #333;
     }
     header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    header img {
+      position: relative;
       width: 100%;
-      height: auto;
-      max-height: 400px;
-      object-fit: cover;
-      border-radius: 12px;
+      height: 300px;
+      background-image: url('https://www.getawaymavens.com/wp-content/uploads/2022/09/cayuga-lake-dock.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
     }
     h1 {
-      font-size: 2.5rem;
-      margin-top: 1rem;
+      font-size: 3rem;
+      margin: 0;
     }
     p {
-      font-size: 1.1rem;
-      margin: 0.5rem 0;
+      font-size: 1.2rem;
     }
     .section {
-      margin-top: 2rem;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #3a7d44;
     }
     .cta {
       display: inline-block;
@@ -48,7 +58,7 @@
     }
     footer {
       text-align: center;
-      margin-top: 3rem;
+      padding: 2rem;
       font-size: 0.9rem;
       color: #777;
     }
@@ -56,17 +66,37 @@
 </head>
 <body>
   <header>
-    <img src="https://images.fineartamerica.com/images-medium-large-5/sunset-on-cayuga-lake-iv-ithaca-new-york-paul-ge.jpg" alt="Cayuga Lake Sunset" />
     <h1>Cayuga Kayak Rentals</h1>
-    <p>Relax, Paddle, Explore — Easy rentals by the water</p>
+    <p>Affordable kayak rentals for your summer adventure</p>
   </header>
 
   <div class="section">
+    <h2>About Cayuga Kayak Rentals</h2>
+    <p>At Cayuga Kayak Rentals, we’re passionate about making it easy for everyone to get out on the water. Whether you're a seasoned paddler or just looking for a relaxing afternoon, we make kayak rentals simple, affordable, and fun.</p>
+  </div>
+
+  <div class="section">
     <h2>Pricing</h2>
-    <p>$60 per day for one kayak</p>
-    <p>Rent a second kayak the same day for half price ($30)</p>
-    <p>Pickup or choose a drop-off location — no extra charge!</p>
-    <p>*Life jackets and tie-down straps not included*</p>
+    <p>$60 per day for the first kayak</p>
+    <p>Half off the second kayak when rented together</p>
+    <p>Pickup is free, or choose a drop-off location at no additional charge</p>
+    <p><em>*Life jackets and vehicle straps for transportation are not provided*</em></p>
+  </div>
+
+  <div class="section">
+    <h2>What's Included</h2>
+    <ul>
+      <li>Kayak</li>
+      <li>Paddle</li>
+      <li>Basic instructions if needed</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>How It Works</h2>
+    <p><strong>1. Text us</strong> to reserve your kayak.</p>
+    <p><strong>2. Pick up your kayak or arrange for drop-off.</strong></p>
+    <p><strong>3. Get out on the water and enjoy!</strong></p>
   </div>
 
   <div class="section">
@@ -76,7 +106,7 @@
   </div>
 
   <footer>
-    <p>Made with ❤️ in NY — Cayuga Kayak Rentals</p>
+    Cayuga Kayak Rentals ❤️ from New York
   </footer>
 </body>
 </html>
