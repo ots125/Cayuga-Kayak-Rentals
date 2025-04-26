@@ -2,46 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cayuga Kayak Rentals</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
+      padding: 0;
       background: #f7f5f2;
       color: #333;
     }
+    .banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+    }
     header {
       text-align: center;
-      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fit=crop&w=1500&q=8') no-repeat center center/cover;
-      padding: 3rem 1rem;
-      color: white;
-    }
-    header img {
-      width: 100px;
-      height: auto;
-      margin-bottom: 1rem;
+      padding: 2rem 1rem;
+      background-color: #fff;
     }
     h1 {
       font-size: 2.5rem;
-      margin: 0.5rem 0;
+      margin-bottom: 0.5rem;
     }
     h2 {
       font-size: 1.8rem;
-      color: #3a7d44;
+      color: #2f6538;
       margin-top: 2rem;
     }
-    p, li {
+    p {
       font-size: 1.1rem;
+      margin: 0.5rem 0;
       line-height: 1.6;
     }
-    ul, ol {
-      margin-left: 1.5rem;
-    }
     .section {
-      padding: 1rem 2rem;
       max-width: 800px;
-      margin: auto;
+      margin: 0 auto;
+      padding: 1rem 2rem;
     }
     .cta {
       display: inline-block;
@@ -56,18 +54,12 @@
     .cta:hover {
       background: #2f6538;
     }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #eee;
-      font-size: 0.9rem;
-      margin-top: 2rem;
-    }
   </style>
 </head>
 <body>
+  <img class="banner" src="https://images.fineartamerica.com/images-medium-large-5/sunset-on-cayuga-lake-iv-ithaca-new-york-paul-ge.jpg" alt="Cayuga Lake at Sunset" />
+
   <header>
-    <img src="kayak-logo.png" alt="Cayuga Kayak Rentals Logo">
     <h1>Cayuga Kayak Rentals</h1>
     <p>Affordable kayak rentals for your summer adventure</p>
   </header>
@@ -76,26 +68,7 @@
     <h2>Pricing</h2>
     <p>$60 per day</p>
     <p>Pickup is free, or choose a drop-off location for an additional $15</p>
-    <p><em>*Life jackets not included*</em></p>
-  </div>
-
-  <div class="section">
-    <h2>Why Choose Us</h2>
-    <ul>
-      <li>Locally owned and operated</li>
-      <li>Friendly, personalized service</li>
-      <li>Flexible pickup and drop-off options</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>How It Works</h2>
-    <ol>
-      <li>Text us to check availability</li>
-      <li>Choose your rental date</li>
-      <li>Pick up your kayak or arrange for drop-off</li>
-      <li>Enjoy your time on the water!</li>
-    </ol>
+    <p><strong>*Life jackets not included*</strong></p>
   </div>
 
   <div class="section">
@@ -104,8 +77,27 @@
     <a class="cta" href="sms:+13152377479">Text (315) 237-7479</a>
   </div>
 
-  <footer>
-    <p>© 2025 Cayuga Kayak Rentals | Made with ❤️ in New York</p>
-  </footer>
+  <div class="section">
+    <h2>About Us</h2>
+    <p>We’re a local team bringing easy and affordable kayak rentals to Cayuga Lake. Whether you're a visitor or a local, we make it simple to get out on the water and enjoy the summer vibes. Just text us, pick your kayak up, or choose a drop-off location—we’ll handle the rest.</p>
+  </div>
+
+  <div class="section">
+    <h2>What’s Included</h2>
+    <ul>
+      <li>1 Kayak</li>
+      <li>Paddle</li>
+      <li>Straps for securing during transport</li>
+    </ul>
+    <p><em>Life jackets are not included—please bring your own or acquire one before your trip.</em></p>
+  </div>
+
+  <div class="section">
+    <h2>FAQs</h2>
+    <p><strong>How do I reserve?</strong><br>Text (315) 237-7479 and we’ll confirm availability and details.</p>
+    <p><strong>Where do I pick up?</strong><br>We’ll coordinate a convenient location with you via text.</p>
+    <p><strong>Do you offer delivery?</strong><br>Yes! Drop-off to your location is available for an additional $15.</p>
+    <p><strong>Can I rent more than one?</strong><br>We currently have 2 kayaks available for rent—first come, first served.</p>
+  </div>
 </body>
 </html>
